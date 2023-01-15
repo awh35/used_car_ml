@@ -14,6 +14,7 @@ logger = logging.getLogger(__name__)
 RANDOM_SEARCH_STEPS = 50
 RAY_SPILL_PATH = "/mnt/disks/disk1/ray_spill"  # where to redirect memory spillage
 
+
 def init_ray(ray_spill_path=RAY_SPILL_PATH):
     ray.init(
         ignore_reinit_error=True,
