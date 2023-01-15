@@ -1,0 +1,3 @@
+# Hyperparameter Optimisation with Ray Tune
+
+This contains code for hyperparameter optimisation using Ray Tune. The dataset used is from https://www.kaggle.com/datasets/ananaymital/us-used-cars-dataset, and selection is performed based on out-of-sample R-squared, with folds constructed to respect time order. The models optimised are various linear and tree-based models, all using the sklearn API. Feature preprocessing/engineering/selection is not a focus here.
